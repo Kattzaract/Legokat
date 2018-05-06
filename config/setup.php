@@ -1,7 +1,7 @@
 <?php
 // Setup File:
     #database connection:
-    $dbc = mysqli_connect('localhost', 'Katlego_N', 'Katleg)Nqum123','legokat') OR die('could not connect because: ' . mysqli_connect_error());
+    $dbc = mysqli_connect('localhost', 'Katlego_N', 'PASSWORD','legokat') OR die('could not connect because: ' . mysqli_connect_error());
 
     #constants:
     DEFINE('DIRECTORY_TEMPLATE','../template/');
