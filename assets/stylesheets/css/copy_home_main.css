@@ -1,0 +1,285 @@
+/*Default Links*/
+a{
+    color: white;
+}
+
+/*/*Visited Links*/
+a:visited {
+    color: white;;
+}
+/* mouse over links */
+a:hover {
+    color: white;
+}
+ /*selected links *!*/
+a:active {
+    color: white;
+}
+body {
+
+    background-image: url("../../media/images/backrounds/webdesign-banner.jpg");
+    background-repeat: no-repeat;
+
+    /*background-image: url("../../media/images/IMG-20180101-WA0003.jpg");
+    background-repeat: no-repeat;*/
+    /*background-size:1280px, 853px;*/
+    background-size: 1350px, 100%;
+}
+
+.navbar
+{
+    background-color: black;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+
+}
+
+header{
+    margin-top: 100px;
+
+    font-weight: 100;
+}
+
+/*Company Introduction*/
+#introduction-heading {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Slogan Text*/
+#services-heading {
+    line-height: 3.25em;
+    font-size: x-large;
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Go to services button*/
+#contact-me-btn {
+    width: 250px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+    color: #fff;
+    outline-color: white;
+    box-shadow: inset 0 0 0 1px #fff;
+    border: transparent;
+}
+
+.about-me-paragraph{
+    color: white;
+    font-size: x-large;
+    padding-top: 30px;
+}
+
+.fa-angle-double-down{
+    color: white;
+    font-size: xx-large;
+}
+
+.footer-icons i{
+    color: white;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px){}
+/*Small phones*/
+@media screen and (max-width: 280px){
+    /*Default Links*/
+    a{
+        color: papayawhip;
+    }
+
+    /*/*Visited Links*/
+    a:visited {
+        color: papayawhip;
+    }
+    /* mouse over links */
+    a:hover {
+        color: papayawhip;
+    }
+    /*selected links *!*/
+    a:active {
+        color: papayawhip;
+    }
+    body {
+        background-image: url("../../media/images/backrounds/webdesign-banner.jpg");
+        background-repeat: space;
+        background-size: cover;
+    }
+
+    .navbar
+    {
+        background-color: black;
+        border: none;
+    }
+
+    .navbar-inverse .navbar-nav > li > a{
+
+    }
+
+    header{
+        margin-top: 100px;
+
+        font-weight: 100;
+    }
+
+    /*Company Introduction*/
+    #introduction-heading {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /*Slogan Text*/
+    #services-heading {
+        line-height: 3.25em;
+        font-size: x-large;
+        color: white;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /*Go to services button*/
+    #contact-me-btn {
+        width: 250px;
+        height: 70px;
+        background: rgba(255, 255, 255, 0.15);
+        background: pink!important;
+        margin-top: 50px;
+        color: #fff;
+        outline-color: white;
+        box-shadow: inset 0 0 0 1px #fff;
+        border: transparent;
+    }
+
+    .about-me-paragraph{
+        color: papayawhip;
+        font-size: x-large;
+        padding-top: 30px;
+    }
+
+    .fa-angle-double-down{
+        color: papayawhip;
+        font-size: xx-large;
+    }
+
+    .footer-icons i{
+        color: red;
+        font-size: xx-large;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-height:  610px){
+
+    /*Default Links*/
+    a{
+        color: papayawhip;
+    }
+
+    /*/*Visited Links*/
+    a:visited {
+        color: papayawhip;
+    }
+    /* mouse over links */
+    a:hover {
+        color: papayawhip;
+    }
+    /*selected links *!*/
+    a:active {
+        color: papayawhip;
+    }
+    body {
+
+        background-image: url("../../media/images/backrounds/webdesign-banner.jpg");
+        background-repeat: no-repeat;
+
+        /*background-image: url("../../media/images/IMG-20180101-WA0003.jpg");
+        background-repeat: no-repeat;*/
+        /*background-size:1280px, 853px;*/
+        background-size: 1350px, 100%;
+    }
+
+    .navbar
+    {
+        background-color: black;
+        border: none;
+    }
+
+    .navbar-inverse .navbar-nav > li > a{
+
+    }
+
+    header{
+        margin-top: 30px;
+
+        font-weight: 100;
+    }
+
+    /*Company Introduction*/
+    #introduction-heading {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: x-large;
+    }
+
+    /*Slogan Text*/
+    #services-heading {
+        line-height: 3.25em;
+        font-size: large;
+        color: white;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /*Go to services button*/
+    #contact-me-btn {
+        width: 250px;
+        height: 70px;
+        background: rgba(255, 255, 255, 0.15);
+        margin-top: 10%;
+        color: #fff;
+        outline-color: white;
+        box-shadow: inset 0 0 0 1px #fff;
+        border: transparent;
+    }
+
+    .about-me-paragraph{
+        color: papayawhip;
+        font-size: x-large;
+        padding-top: 15px;
+    }
+
+    .fa-angle-double-down{
+        color: papayawhip;
+        font-size: xx-large;
+    }
+
+    .footer-icons i{
+        color: papayawhip;
+        font-size: xx-large;
+        padding: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

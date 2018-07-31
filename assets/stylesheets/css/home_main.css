@@ -1,0 +1,84 @@
+html, body {
+    height:100%;
+    /*background-image: url("../../media/images/backrounds/webdesign-banner.jpg");*/
+    /*background-image: url("../../media/images/backrounds/O7MF5N0.jpg");*/
+    background-image: url("../../media/images/backrounds/tidy-desk-3186167.jpg");
+    background-repeat: no-repeat;
+    background-position: 1% 20%;
+    background-position: center;
+    /*I should find out the proper way of sizing a background image*/
+    background-size: 1400px, 1px;
+}
+
+
+
+/*header area*/
+header{
+    margin-top: 10%;
+    /*color: white;
+    !*color: rgba(173, 0, 50, 0.81);*!
+    !*color: rgba(38, 63, 128, 0.52);*!
+    !*background-color: rgba(119, 119, 119, 0.38);*!
+    color:  #323031;
+    color: rgba(255, 200, 87, 0.64);*/
+
+
+    /* background-color: rgba(38, 63, 128, 0.52);*/
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+
+}
+
+/*contact me button*/
+#contact-me-btn{
+    border: solid;
+    /*border-color: #454545;*/
+    border-color: white;
+    color: white;
+    /* background-color: rgba(38, 63, 128, 0.52);*/
+    background-color: rgba(119, 0, 35, 0.37);
+    background-color: rgba(255, 0, 0, 0.36);
+    background-color: rgba(119, 0, 35, 0);
+    /*background-color: rgba(255, 200, 87, 0.64);*/
+    /*background-color: rgba(128, 128, 128, 0.58);
+    background-color: rgba(119, 119, 119, 0.38);*/
+    margin-top: 15%;
+    width: 300px;
+    border-radius: 2px;
+}
+
+/*contact me button on hover*/
+#contact-me-btn:hover{
+    color: #252525;
+    border-color: white;
+    color: red;
+    /*border-color: white;*/
+    background-color: rgba(128, 128, 128, 0.58);
+    background-color: rgba(119, 0, 35, 0);
+
+    /*background-color: rgba(38, 63, 128, 0.52);*/
+    margin-top: 15%;
+}
+
+
+/*Media Queries*/
+/*Small desktops*/
+@media screen and (max-width: 1050px){}
+
+/*Tablets*/
+@media screen and (max-width: 768px){}
+
+/*Mobiles*/
+@media screen and (max-width: 480px){}
+
+/*xx small mobiles*/
+@media screen and (max-width: 280px){}
+
+/*Short mobiles*/
+@media screen and (max-height:  610px){}
+
+/*Short mobiles*/
+@media screen and (max-height:  280px){
+}
+
